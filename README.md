@@ -61,6 +61,12 @@ It shows how to use a silver gadget to set 4 arbitrary argument registers and th
 ### ```gccexecve.py```
 It shows how to use a silver gadget to set 4 arbitrary argument registers and then call an arbitrary function - in this case ```execve```.
 
+### ```msvc_call_exploit.py```
+It shows how to spawn an arbitrary program in Windows (in this case using ```WinExec```), after a stack buffer overflow.
+
+### ```msvc_silver_exploit.py```
+It shows how to leverage silver gadgets on MSVC-compiled Windows programs.
+
 ### ```callexec.py```
 It shows the most basic execution hijacking, redirecting the execution to an arbitrary function already existing in the program - in this case ```system```.
 
