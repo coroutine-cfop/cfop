@@ -1,0 +1,129 @@
+﻿  winargjoined.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\coroutine(17): warning STL4038: The contents of <coroutine> are available only with C++20 or later or /await:strict.
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(61,14): error C2039: 'suspend_always': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(61,29): error C3646: 'initial_suspend': unknown override specifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(61,44): error C2059: syntax error: '('
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(62,9): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(79,18): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(79,34): error C2143: syntax error: missing ';' before '<'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(79,34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(79,56): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(80,13): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(96,14): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(96,30): error C2143: syntax error: missing ';' before '<'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(96,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(96,45): error C2238: unexpected token(s) preceding ';'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(121,14): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(121,30): error C2143: syntax error: missing ';' before '<'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(121,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(121,52): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(122,9): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(129,31): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(129,31): error C2061: syntax error: identifier 'coroutine_handle'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(132,14): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(132,30): error C2143: syntax error: missing ';' before '<'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(132,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(132,56): error C2238: unexpected token(s) preceding ';'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(135,22): error C3773: Use of 'co_await' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(135,22):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(140,24): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(140,24): error C2061: syntax error: identifier 'coroutine_handle'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(143,10): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(143,26): error C2143: syntax error: missing ';' before '<'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(143,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(143,46): error C2238: unexpected token(s) preceding ';'
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(58,31): error C2039: 'coroutine_handle': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(25,1):
+  see declaration of 'std'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(58,31): error C2065: 'coroutine_handle': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(58,48): error C2275: 'task::promise_type': expected an expression instead of a type
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(58,63): error C2039: 'from_promise': is not a member of '`global namespace''
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(58,63): error C3861: 'from_promise': identifier not found
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(100,33): error C2039: 'coro_': is not a member of 'task'
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(50,7):
+  see declaration of 'task'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(100,22): error C2672: 'std::exchange': no matching overloaded function found
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility(759,18):
+  could be '_Ty std::exchange(_Ty &,_Other &&) noexcept(<expr>)'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(100,11): error C2614: 'task': illegal member initialization: 'coro_' is not a base or member
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(104,13): error C2065: 'coro_': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(106,13): error C2065: 'coro_': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(110,29): error C2065: 'coro_': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(111,32): error C2065: 'coro_': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(130,21): error C2065: 'h': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(130,15): error C2614: 'task::awaiter': illegal member initialization: 'coro_' is not a base or member
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(137,25): error C2065: 'coro_': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(141,17): error C2065: 'h': undeclared identifier
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(141,11): error C2614: 'task': illegal member initialization: 'coro_' is not a base or member
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(157,5): error C3773: Use of 'co_return' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(157,5):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(157,5): error C2561: 'c3': function must return a value
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(152,6):
+  see declaration of 'c3'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(158,1): error C3774: cannot find 'std::experimental': Please include <experimental/coroutine> header
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(163,5): error C3773: Use of 'co_await' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(163,5):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(163,18): error C3774: cannot find 'std::experimental': Please include <experimental/coroutine> header
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(165,5): error C3773: Use of 'co_return' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(165,5):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(165,5): error C2561: 'c2': function must return a value
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(160,6):
+  see declaration of 'c2'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(166,1): error C3774: cannot find 'std::experimental': Please include <experimental/coroutine> header
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(171,5): error C3773: Use of 'co_await' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(171,5):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(171,18): error C3774: cannot find 'std::experimental': Please include <experimental/coroutine> header
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(173,5): error C3773: Use of 'co_return' in this context is a non-conforming extension in C++14
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(173,5):
+  Please use '/await' command-line option to enable relevant extensions
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(173,5): error C2561: 'c1': function must return a value
+  C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(168,6):
+  see declaration of 'c1'
+  
+C:\Users\h3xduck\Documents\GitHub\coroutineexploitation\disclosure\msvc\msvc_cfop_poc\winargjoined.cpp(174,1): error C3774: cannot find 'std::experimental': Please include <experimental/coroutine> header

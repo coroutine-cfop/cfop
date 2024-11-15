@@ -27,10 +27,20 @@ In general, the steps for running one of the dockerized exploit scripts is:
 
 ```python3 <exploit>.py```
 
+## Running MSVC PoCs
+For the PoCs under the ```msvc``` folder, we do not provide a Docker container but are fully reproducable standalone, as they incorporate embedded ASLR bypass mechanisms.
+Consult the README of the ```msvc``` folder for more details on its components (solution, and scripts).
+
+As a summary, the steps for running the exploit scripts are:
+1. (Optional) Import the ```msvc_cfop_poc``` Visual Studio project and build it using the _PoC_ build configuration. If any issue arises, we also incorporate our already compiled program under ```x64/PoC/```.
+2. Run the first PoC ```msvc_silver_exploit.py```. Only if necessary, update the path where the _.exe_ file is located in line 10 of the script.
+```msvc_silver_exploit.py```
+3. Run the first PoC ```msvc_silver_exploit.py```. Only if necessary, update the path where the _.exe_ file is located in line 10 of the script.
+
 ## Running standalone scripts
 For those PoCs that are not dockerized just yet, we are still providing the code for transparency and reference - but their reproducibility is more limited due to the discrepances between the system they were built and tested and your own system. Even so, the exploit payload consists of a collection of named variables, so it is readable and not just a single string of hexadecimal symbols.
 
-In general, the steps for running one of the undockerized exploit scripts is:
+In general, the steps for running one of the undockerized exploit scripts are:
 1. Compile the program
 
 ```gcc -g -O3 -std=c++20 -fcf-protection=full <code> -o <program>```
