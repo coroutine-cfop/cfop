@@ -1,0 +1,6 @@
+#include <LibCore/AnonymousBuffer.h>
+
+endpoint AudioClient
+{
+    client_volume_changed(double volume) =|
+}

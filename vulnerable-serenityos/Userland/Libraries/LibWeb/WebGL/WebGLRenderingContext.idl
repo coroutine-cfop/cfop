@@ -1,0 +1,10 @@
+#import <WebGL/WebGLRenderingContextBase.idl>
+#import <WebGL/WebGLRenderingContextOverloads.idl>
+
+// https://registry.khronos.org/webgl/specs/latest/1.0/#5.14
+[Exposed=(Window,Worker)]
+interface WebGLRenderingContext {
+};
+
+WebGLRenderingContext includes WebGLRenderingContextBase;
+WebGLRenderingContext includes WebGLRenderingContextOverloads;

@@ -1,0 +1,29 @@
+#import <DOM/EventTarget.idl>
+#import <HTML/HTMLElement.idl>
+#import <Internals/InternalAnimationTimeline.idl>
+
+[Exposed=Nobody]
+interface Internals {
+
+    undefined signalTextTestIsDone();
+    undefined gc();
+    object hitTest(double x, double y);
+
+    undefined sendText(HTMLElement target, DOMString text);
+    undefined sendKey(HTMLElement target, DOMString keyName);
+    undefined commitText();
+
+    undefined click(double x, double y);
+    undefined middleClick(double x, double y);
+    undefined movePointerTo(double x, double y);
+    undefined wheel(double x, double y, double deltaX, double deltaY);
+
+    boolean dispatchUserActivatedEvent(EventTarget target, Event event);
+    undefined spoofCurrentURL(USVString url);
+
+    InternalAnimationTimeline createInternalAnimationTimeline();
+
+    undefined simulateDragStart(double x, double y, DOMString mimeType, DOMString contents);
+    undefined simulateDragMove(double x, double y);
+    undefined simulateDrop(double x, double y);
+};

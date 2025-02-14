@@ -1,0 +1,24 @@
+#import <FileAPI/Blob.idl>
+#import <HTML/CanvasRenderingContext2D.idl>
+#import <HTML/HTMLElement.idl>
+#import <WebGL/WebGLRenderingContext.idl>
+
+typedef (CanvasRenderingContext2D or WebGLRenderingContext) RenderingContext;
+
+// https://html.spec.whatwg.org/multipage/semantics.html#htmlcanvaselement
+[Exposed=Window]
+interface HTMLCanvasElement : HTMLElement {
+
+    [HTMLConstructor] constructor();
+
+    [CEReactions] attribute unsigned long width;
+    [CEReactions] attribute unsigned long height;
+
+    RenderingContext? getContext(DOMString contextId, optional any options = null);
+
+    USVString toDataURL(optional DOMString type = "image/png", optional double quality);
+    undefined toBlob(BlobCallback _callback, optional DOMString type = "image/png", optional double quality);
+
+};
+
+callback BlobCallback = undefined (Blob? blob);
