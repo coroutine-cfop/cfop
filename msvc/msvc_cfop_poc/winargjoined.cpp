@@ -161,6 +161,9 @@ task c2()
 {
     std::cout << "starting c2()" << std::endl;
     co_await c3();
+    co_await c3();
+    co_await c3();
+    co_await c3();
     std::cout << "ending c2()" << std::endl;
     co_return;
 }

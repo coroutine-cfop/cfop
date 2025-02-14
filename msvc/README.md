@@ -30,7 +30,7 @@ The Visual Studio solution can be consulted for all the relevant compilation set
 
 We recommend using our exploit scripts to run the program. We prepared them in such a way that a debugger (e.g., WinDbg) can be attached. Thus, in order to run the PoC, you should follow the next steps:
 1. (Optional) Import the ```msvc_cfop_poc``` Visual Studio project and build it using the _PoC_ build configuration. If any issue arises, we also incorporate our already compiled program under ```x64/PoC/```.
-2. Run the first PoC ```msvc_silver_exploit.py```. Only if necessary, update the path where the _.exe_ file is located in line 10 of the script.
+2. Run the first PoC ```msvc_call_exploit.py```. Only if necessary, update the path where the _.exe_ file is located in line 10 of the script.
 ```msvc_silver_exploit.py```
 3. Run the first PoC ```msvc_silver_exploit.py```. Only if necessary, update the path where the _.exe_ file is located in line 10 of the script.
 
