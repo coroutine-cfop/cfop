@@ -1,0 +1,139 @@
+action("generate_tiff_sources") {
+  script = "//Userland/Libraries/LibGfx/TIFFGenerator.py"
+
+  args = [
+    "-o",
+    rebase_path("$target_gen_dir/ImageFormats", root_build_dir),
+  ]
+
+  outputs = [
+    "$target_gen_dir/ImageFormats/TIFFMetadata.h",
+    "$target_gen_dir/ImageFormats/TIFFTagHandler.cpp",
+  ]
+
+  # FIXME: install header into $prefix/include/LibGfx/ImageFormats on serenity
+}
+
+config("tiff_headers") {
+  include_dirs = [ "$target_gen_dir/.." ]
+}
+
+shared_library("LibGfx") {
+  output_name = "gfx"
+  include_dirs = [
+    "//Userland/Libraries",
+    "//Userland",
+  ]
+  public_configs = [ ":tiff_headers" ]
+  sources = [
+    "AffineTransform.cpp",
+    "AntiAliasingPainter.cpp",
+    "Bitmap.cpp",
+    "BitmapMixer.cpp",
+    "BitmapSequence.cpp",
+    "CMYKBitmap.cpp",
+    "ClassicStylePainter.cpp",
+    "ClassicWindowTheme.cpp",
+    "Color.cpp",
+    "CursorParams.cpp",
+    "DeltaE.cpp",
+    "EdgeFlagPathRasterizer.cpp",
+    "Filters/ColorBlindnessFilter.cpp",
+    "Filters/FastBoxBlurFilter.cpp",
+    "Filters/LumaFilter.cpp",
+    "Filters/StackBlurFilter.cpp",
+    "Font/BitmapFont.cpp",
+    "Font/Emoji.cpp",
+    "Font/Font.cpp",
+    "Font/FontDatabase.cpp",
+    "Font/OpenType/Cmap.cpp",
+    "Font/OpenType/Font.cpp",
+    "Font/OpenType/Glyf.cpp",
+    "Font/OpenType/Hinting/Opcodes.cpp",
+    "Font/OpenType/Tables.cpp",
+    "Font/ScaledFont.cpp",
+    "Font/Typeface.cpp",
+    "Font/VectorFont.cpp",
+    "Font/WOFF/Font.cpp",
+    "Font/WOFF2/Font.cpp",
+    "FontCascadeList.cpp",
+    "GradientPainting.cpp",
+    "ICC/BinaryWriter.cpp",
+    "ICC/Enums.cpp",
+    "ICC/Profile.cpp",
+    "ICC/TagTypes.cpp",
+    "ICC/Tags.cpp",
+    "ICC/WellKnownProfiles.cpp",
+    "ImageFormats/AnimationWriter.cpp",
+    "ImageFormats/BMPLoader.cpp",
+    "ImageFormats/BMPWriter.cpp",
+    "ImageFormats/BooleanDecoder.cpp",
+    "ImageFormats/CCITTDecoder.cpp",
+    "ImageFormats/DDSLoader.cpp",
+    "ImageFormats/GIFLoader.cpp",
+    "ImageFormats/ICOLoader.cpp",
+    "ImageFormats/ILBMLoader.cpp",
+    "ImageFormats/ISOBMFF/Boxes.cpp",
+    "ImageFormats/ISOBMFF/JPEG2000Boxes.cpp",
+    "ImageFormats/ISOBMFF/Reader.cpp",
+    "ImageFormats/ImageDecoder.cpp",
+    "ImageFormats/JBIG2Loader.cpp",
+    "ImageFormats/JPEG2000Loader.cpp",
+    "ImageFormats/JPEGLoader.cpp",
+    "ImageFormats/JPEGWriter.cpp",
+    "ImageFormats/JPEGXLEntropyDecoder.cpp",
+    "ImageFormats/JPEGXLICC.cpp",
+    "ImageFormats/JPEGXLLoader.cpp",
+    "ImageFormats/PAMLoader.cpp",
+    "ImageFormats/PBMLoader.cpp",
+    "ImageFormats/PGMLoader.cpp",
+    "ImageFormats/PNGLoader.cpp",
+    "ImageFormats/PNGWriter.cpp",
+    "ImageFormats/PPMLoader.cpp",
+    "ImageFormats/PortableFormatWriter.cpp",
+    "ImageFormats/QMArithmeticDecoder.cpp",
+    "ImageFormats/QOILoader.cpp",
+    "ImageFormats/QOIWriter.cpp",
+    "ImageFormats/TGALoader.cpp",
+    "ImageFormats/TIFFLoader.cpp",
+    "ImageFormats/TinyVGLoader.cpp",
+    "ImageFormats/WebPLoader.cpp",
+    "ImageFormats/WebPLoaderLossless.cpp",
+    "ImageFormats/WebPLoaderLossy.cpp",
+    "ImageFormats/WebPSharedLossless.cpp",
+    "ImageFormats/WebPWriter.cpp",
+    "ImageFormats/WebPWriterLossless.cpp",
+    "ImmutableBitmap.cpp",
+    "Painter.cpp",
+    "Palette.cpp",
+    "Path.cpp",
+    "PathClipper.cpp",
+    "Point.cpp",
+    "Rect.cpp",
+    "ShareableBitmap.cpp",
+    "Size.cpp",
+    "StylePainter.cpp",
+    "SystemTheme.cpp",
+    "TextDirection.cpp",
+    "TextLayout.cpp",
+    "Triangle.cpp",
+    "VectorGraphic.cpp",
+    "WindowTheme.cpp",
+  ]
+
+  sources += get_target_outputs(":generate_tiff_sources")
+
+  deps = [
+    ":generate_tiff_sources",
+    "//AK",
+    "//Userland/Libraries/LibCompress",
+    "//Userland/Libraries/LibCore",
+    "//Userland/Libraries/LibCrypto",
+    "//Userland/Libraries/LibFileSystem",
+    "//Userland/Libraries/LibIPC",
+    "//Userland/Libraries/LibRIFF",
+    "//Userland/Libraries/LibTextCodec",
+    "//Userland/Libraries/LibURL",
+    "//Userland/Libraries/LibUnicode",
+  ]
+}

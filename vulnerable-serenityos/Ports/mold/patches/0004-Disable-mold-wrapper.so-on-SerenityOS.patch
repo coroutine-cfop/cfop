@@ -1,0 +1,22 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Andrew Kaster <andrewdkaster@gmail.com>
+Date: Sun, 2 Oct 2022 19:42:51 -0600
+Subject: [PATCH] Disable mold-wrapper.so on SerenityOS
+
+---
+ CMakeLists.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 62b260427c56e1c3815dd48b5d02c2f5a62b095b..ac73954d9fd1564de18148bff288d5ded9083562 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -245,7 +245,7 @@ else()
+ endif()
+ 
+ # Build mold-wrapper.so
+-if(NOT APPLE AND NOT WIN32)
++if(NOT APPLE AND NOT WIN32 AND NOT SERENITYOS)
+   add_library(mold-wrapper SHARED)
+   install(TARGETS mold-wrapper DESTINATION ${CMAKE_INSTALL_LIBDIR}/mold)
+ 

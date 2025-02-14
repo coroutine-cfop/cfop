@@ -1,0 +1,33 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?S=C3=B6nke=20Holz?= <sholz8530@gmail.com>
+Date: Mon, 30 Sep 2024 09:19:14 +0200
+Subject: [PATCH] Adapt to the Serenity thread name interface
+
+---
+ libavutil/thread.h | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/libavutil/thread.h b/libavutil/thread.h
+index 2c00c7cc35ada4209ab15ce612fdd61239f96bca..bf69b9ee0dd600296b129955bf9ca2dff0830a13 100644
+--- a/libavutil/thread.h
++++ b/libavutil/thread.h
+@@ -24,7 +24,9 @@
+ 
+ #include "config.h"
+ 
+-#if HAVE_PRCTL
++#ifdef __serenity__
++#include <pthread.h>
++#elif HAVE_PRCTL
+ #include <sys/prctl.h>
+ #elif (HAVE_PTHREAD_SETNAME_NP || HAVE_PTHREAD_SET_NAME_NP) && HAVE_PTHREAD_NP_H
+ #include <pthread_np.h>
+@@ -217,7 +219,7 @@ static inline int ff_thread_setname(const char *name)
+ {
+     int ret = 0;
+ 
+-#if HAVE_PRCTL
++#if HAVE_PRCTL && !defined(__serenity__)
+     ret = AVERROR(prctl(PR_SET_NAME, name));
+ #elif HAVE_PTHREAD_SETNAME_NP
+ #if defined(__APPLE__)

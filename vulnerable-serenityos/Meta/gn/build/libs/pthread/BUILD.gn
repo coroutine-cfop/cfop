@@ -1,0 +1,8 @@
+config("pthread_config") {
+  visibility = [ ":pthread" ]
+  libs = [ "pthread" ]
+}
+
+group("pthread") {
+  public_configs = [ ":pthread_config" ]
+}

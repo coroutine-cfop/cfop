@@ -1,0 +1,5 @@
+pass  pass  Select file...No file selected.   text: "pass"
+hidden: "pass"
+button: "pass"
+checkbox: "pass"
+file: "" (threw exception)

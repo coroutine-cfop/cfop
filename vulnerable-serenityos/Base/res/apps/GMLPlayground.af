@@ -1,0 +1,7 @@
+[App]
+Name=&GML Playground
+Executable=/bin/GMLPlayground
+Category=D&evelopment
+
+[Launcher]
+FileTypes=gml

@@ -1,0 +1,25 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Andrew Kaster <akaster@serenityos.org>
+Date: Tue, 11 Jan 2022 01:04:20 -0700
+Subject: [PATCH] Stub out a definition of RTLD_NOLOAD
+
+SerenityOS's DynamicLoader doesn't support this flag. However, we won't
+be dynamically loading any tbb extensions for the static library build
+mold uses, so we can just define it as a no-op as the code paths that
+use it will never be used.
+---
+ third-party/tbb/src/tbb/dynamic_link.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/third-party/tbb/src/tbb/dynamic_link.cpp b/third-party/tbb/src/tbb/dynamic_link.cpp
+index a21beb5aeb0205ce5f4013b2115515155fad6940..f7353c521b94b2534494bdd77111b5f89a4af318 100644
+--- a/third-party/tbb/src/tbb/dynamic_link.cpp
++++ b/third-party/tbb/src/tbb/dynamic_link.cpp
+@@ -55,6 +55,7 @@
+     #pragma weak dlclose
+ #endif /* __TBB_WEAK_SYMBOLS_PRESENT && !__TBB_DYNAMIC_LOAD_ENABLED */
+ 
++#define RTLD_NOLOAD 0
+ 
+ #define __USE_STATIC_DL_INIT    ( !__ANDROID__ )
+ 

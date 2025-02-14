@@ -1,0 +1,2442 @@
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/bin/Ladybird
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000020	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+	x86 ISA needed: x86-64-baseline
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 19501c49ba2ced9976b2592e74ed8efb8001d0d5
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.2.0
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+
+**************************************SHSTK ABSENT!!******************************************************
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 883c739f3e7baba157a2884bcf54f601b1819a0d
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/qt6/plugins/imageformats/libqico.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.qt.metadata
+  Owner                Data size 	Description
+  qt-project!          0x00000095	Unknown note type: (0x74510001)
+   description data: 01 06 04 01 bf 02 78 31 6f 72 67 2e 71 74 2d 70 72 6f 6a 65 63 74 2e 51 74 2e 51 49 6d 61 67 65 49 4f 48 61 6e 64 6c 65 72 46 61 63 74 6f 72 79 49 6e 74 65 72 66 61 63 65 03 6a 51 49 43 4f 50 6c 75 67 69 6e 04 a2 64 4b 65 79 73 82 63 69 63 6f 63 63 75 72 69 4d 69 6d 65 54 79 70 65 73 82 78 18 69 6d 61 67 65 2f 76 6e 64 2e 6d 69 63 72 6f 73 6f 66 74 2e 69 63 6f 6e 78 18 69 6d 61 67 65 2f 76 6e 64 2e 6d 69 63 72 6f 73 6f 66 74 2e 69 63 6f 6e ff 
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ba0c6529dbb14dbdf50780549a2904a39431e61d
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/qt6/plugins/imageformats/libqjpeg.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.qt.metadata
+  Owner                Data size 	Description
+  qt-project!          0x00000079	Unknown note type: (0x74510001)
+   description data: 01 06 04 01 bf 02 78 31 6f 72 67 2e 71 74 2d 70 72 6f 6a 65 63 74 2e 51 74 2e 51 49 6d 61 67 65 49 4f 48 61 6e 64 6c 65 72 46 61 63 74 6f 72 79 49 6e 74 65 72 66 61 63 65 03 6b 51 4a 70 65 67 50 6c 75 67 69 6e 04 a2 64 4b 65 79 73 82 63 6a 70 67 64 6a 70 65 67 69 4d 69 6d 65 54 79 70 65 73 82 6a 69 6d 61 67 65 2f 6a 70 65 67 6a 69 6d 61 67 65 2f 6a 70 65 67 ff 
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0c2f16df5131e9bb855c8851a10e134dab4ad757
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 98ddd7258e23c006310ff8ac9602b0f9880bb5c2
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: e821feb66aa550e614a0eea45ff19ef30702fa14
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: cb35a1e70bf5fa97ec0823632a0b515829f9dddb
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c542be47a780f80c27ce7c7e2de29bdbd36dc16b
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-util.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f73b53b260c9d74718a9d2ba1bef36f1e8a3fc1b
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxkbcommon-x11.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0ed6d10fd581e85b0876b0e8d6f307bba95d79f3
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 8f9506f78d412ebd1b1f2abaa05dfd313b4cbaee
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6XcbQpa.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: defe78169f709b319a620dc3d1faceacc56dbafd
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 54fdd0e24ae9f244a9d77c05cc061dbe6605db49
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7568c0482410a5be67b8e7753afc2656ce9dd22c
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-xkb.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f0b174c41ddba1f00bacd5ead4cc89953efa4873
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-xfixes.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4dcebb1783892ffea1ca3baaf542d02b54b06d8f
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-sync.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b4f09bda96e2397fe929be08408233ea3776cc87
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: d3da750f35e1d3f91d8f619d0d1ea64f112ae5fd
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-shape.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ba3b37cec8393bd178a8fe8dd01d551954c99e26
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 6678e7f58e2bb891a0ebd5639ae19b21d372e626
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b68cd7aaf5c9aa4ea4cdc09c1b9f7eae0eb91e66
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1cbcd6ac7e0ff0259eb3acc14d556d2c1ec00cdc
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c503df82cf13681b2f81e1097e857e3fc50679b1
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-render-util.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4ad3759f7b8abb86b39bfb54bc900da163f02709
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/qt6/plugins/imageformats/libqgif.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.qt.metadata
+  Owner                Data size 	Description
+  qt-project!          0x00000067	Unknown note type: (0x74510001)
+   description data: 01 06 04 01 bf 02 78 31 6f 72 67 2e 71 74 2d 70 72 6f 6a 65 63 74 2e 51 74 2e 51 49 6d 61 67 65 49 4f 48 61 6e 64 6c 65 72 46 61 63 74 6f 72 79 49 6e 74 65 72 66 61 63 65 03 6a 51 47 69 66 50 6c 75 67 69 6e 04 a2 64 4b 65 79 73 81 63 67 69 66 69 4d 69 6d 65 54 79 70 65 73 81 69 69 6d 61 67 65 2f 67 69 66 ff 
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: a404732bc24b12f8bc05af51d09b44c1b2f440db
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/qt6/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.qt.metadata
+  Owner                Data size 	Description
+  qt-project!          0x0000007d	Unknown note type: (0x74510001)
+   description data: 01 06 04 01 bf 02 78 3b 6f 72 67 2e 71 74 2d 70 72 6f 6a 65 63 74 2e 51 74 2e 51 50 6c 61 74 66 6f 72 6d 49 6e 70 75 74 43 6f 6e 74 65 78 74 46 61 63 74 6f 72 79 49 6e 74 65 72 66 61 63 65 2e 35 2e 31 03 78 22 51 43 6f 6d 70 6f 73 65 50 6c 61 74 66 6f 72 6d 49 6e 70 75 74 43 6f 6e 74 65 78 74 50 6c 75 67 69 6e 04 a1 64 4b 65 79 73 82 67 63 6f 6d 70 6f 73 65 63 78 69 6d ff 
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 758a0a9ac5b9ea84b416cde7997c6f37ced10bb9
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: faa3ed2c9a6c05bd17c5c2f5f00d51bf62219174
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libmd.so.0.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ebad7a34c4b5ad0e69696210e5c6ca5b05bb2463
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 03d515d7abc57d127341dacc6330d7406c42a99a
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9758289ff24f611d3bd1bd7ab1f3a35d553b22ed
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b8b5763c17932c66a04cd118bb4b94503139f716
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0
+
+**************************************SHSTK ABSENT!!******************************************************
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 3a90e208b4304837da83fe606564e55f3d9ea619
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libhogweed.so.6.8
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0967bfe956ed72ad482c3362b263fa60ae77ff01
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 3dca7be7be4351629d6689e6a5eec8f5ee90d66b
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 52b801432d88af97b14b12555e344091e7bdd0e2
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7e7763ed9e5fc5b3953ea3b6e84e3ec39f494d16
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: fc640fb151be928aeb0a01c965e6e18f0a2cb9d9
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: cd22caac88f48f5d54af250c65bf81ea4401f159
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 6408124e14225812e9edfb9692f52d497c92a6a8
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libselinux.so.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 191cd6a2055b5951a14be7549f1e07db2566b0d9
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 34443dea92e2a45f45952d8906b37897129b43d7
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/liblber.so.2.0.200
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4aa9c8ac0627445af7c5d2db6862fffcf01bd19a
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libldap.so.2.0.200
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: dcbabc8f28b53040655452a75008ff5fe24439a9
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 510b703be64cdd027819250d8f00d7a073ea9bda
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libnettle.so.8.8
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: d87efbe254c8664752e0941c2e33f5357cef0804
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 5f0b467c1ed4a449af354dd48ea6ccb41924fa5d
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libssh.so.4.9.6
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0601c06fbe057ec8c720bb52274401cd38d2e618
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/librtmp.so.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1a56bbd1e120697b16169d0b17474c9cb6aa5546
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 5f23643be924f9847a46f20aefd4d8d1519c120c
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.26.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 2d0785b5530b33a9db4fa1980a9421cf4d1043cf
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b1d2f1055cbf6c1302cd1fc9df4026b7063b4432
+
+Displaying notes found in: .note.package
+  Owner                Data size 	Description
+  FDO                  0x00000094	FDO_PACKAGING_METADATA
+    Packaging Metadata: {"type":"deb","os":"Ubuntu","name":"systemd","version":"255.4-1ubuntu8.4","architecture":"amd64","debugInfoUrl":"https://debuginfod.ubuntu.com"}
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libduktape.so.207
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0ee021eece433228d886f074c39b4bef0362ce94
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: e78e1b18ad99ec4bc0d44555a35ee104bcabfb04
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 080bf9567fc1a31f6b7a2fb0445fdd0252bfdd91
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7928bc4734a870e87f4c7fac7c1d5adab802d2a1
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 6600a8df37d295234838537914323cd0047c57ef
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 356994eb4f8a19faf65c920fe3ca68383ee141ed
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: dc0924fcb74a62304d899358e5deb09af5b2c92c
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libresolv.so.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000020	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+	x86 ISA needed: x86-64-baseline
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 138af0550a1108eae7456ae809e8a74aa3fd7fd8
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.2.0
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: be297f11b9b4baa3674f3d9e232b2a87b3abf6b2
+
+Displaying notes found in: .note.package
+  Owner                Data size 	Description
+  FDO                  0x00000068	FDO_PACKAGING_METADATA
+    Packaging Metadata: {"type":"deb","os":"ubuntu","name":"gcc-14","version":"14.2.0-4ubuntu2~24.04","architecture":"amd64"}
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 475dd7638c7a546be9e41eab9b4a97928e7c9309
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 47829078e4267099473c6cf5f5742f16ccb2644d
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 2a2e1085a69d9e789b894616d114ffd84eb1c80e
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 16796503bce879b4d9697eb4fada10eeb6af4040
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libexpat.so.1.9.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b5228b67f4d2ef7a1cf48632502d84173b0649db
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4ee95626201c900afa8af1cb3e983f1405d85d3c
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-locale.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c6c4802f0c40b06247a16e4fe8480fdd2dc883b0
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c9149b6e99105aa4321ddd4a10ee4b90de7b7d49
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-threading.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 3f888c6471b9eaf0340ace4c5f971695c8be02ff
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 50e74d06ce9d0786ace21363c5ed045be0a52983
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: da0c6b8cd6032fcc2dd567e77319b8efec33f88b
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 27bc3ec507649e3ccfca72ad2d3615cb8dd727be
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 3cc1a983376a0788c74b90245ba231afa9cd1552
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4f68861fd543a61ddbbd732908a6be38bbf34bd2
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-compress.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9f32fe175e9854df7e080a807404e4af12682e26
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-textcodec.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 930b83f511e23b5e26a26590d6c656e750110ef8
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-crypto.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: d0931d3ee3372923356c0bc65b81f8a1b52e4174
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-tls.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 53dbdf4d0cff0281b32beda7e64f1eb64ad13b35
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-idl.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 88f287cee34cba698f4360b19b1e42b1448b33e9
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-xml.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 30ac52708a0c4240dd4746436b4816c922909cad
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 025c0cc65ec4b6934af7f163d4f4cc96297bed73
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 18f52267810370917e07d092cc954dc3b2c60bcd
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1894aac4398509365349cf4f1d9c98bef58527e7
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-wasm.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: e6db4b4d16c19f30f2c7131acb18696add0d799f
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-audio.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 02752d61b5de9b204fc2c62f766571051ae1b6a1
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libicui18n.so.74.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 33b58f0e184b8ab047784ccdb6bf60b28f3f9126
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-media.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7a2e8ae4e528f2f25ea6bfcf4ceedbb0432de269
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-regex.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f81eb1c81c5fb6a595ac260ad217accaecdedba6
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libpcre2-16.so.0.11.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: df0c7a7c198ef867d3e60f6869294bc8eb206eef
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libfreetype.so.6.20.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: e1eec2f609fd2091960008f7add70edb30d8d0dd
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7b4a2b11e413cbba094aba5dcb52059484acf900
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 461eff2b4df472ba9c32b2358ae9ba018a59a8c5
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-unicode.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f509237dc11a78095d009aacc7778921733f5866
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libproxy/libpxbackend-1.0.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1c5e0b8ce58642bcac39f4bebc7454e504b60fbb
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7873208d61edb5d178415b92110d7d6098976310
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-http.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9f2a4c3f5c719b76e3dbfaa51e429f8b296a3150
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-markdown.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1113e0828ce6c26f27f836a644c28b7ab6c58996
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libb2.so.1.0.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ab7c0b151ab24eea2041bd4dc64163d86cd04283
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-js.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: a3f496151e88a727eb58531a1b60ce250136ba41
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-accelgfx.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ed936f7fcc6388b805f69ae3961d066ce2078235
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.3.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 03b93b464012dfaf67c1692ab0ced8ef1235d29b
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 23b4aac0450be862d76b03ce39a99ab9cdff25ac
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4cb55b1a3e1fcb63bde78cbab338d576fc43e330
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libc.so.6
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000020	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+	x86 ISA needed: x86-64-baseline
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 6d64b17fbac799e68da7ebd9985ddf9b5cb375e6
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.2.0
+
+Displaying notes found in: .note.stapsdt
+  Owner                Data size 	Description
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: setjmp
+    Location: 0x0000000000044f05, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rax
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp
+    Location: 0x00000000000450e3, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rdx
+  stapsdt              0x00000042	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp_target
+    Location: 0x00000000000450ff, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%eax 8@%rdx
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp
+    Location: 0x0000000000045167, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rdx
+  stapsdt              0x00000042	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp_target
+    Location: 0x0000000000045183, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%eax 8@%rdx
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: lll_lock_wait_private
+    Location: 0x0000000000098ee6, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: lll_lock_wait
+    Location: 0x0000000000098f49, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_broadcast
+    Location: 0x000000000009ab65, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_destroy
+    Location: 0x000000000009aee4, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000035	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_init
+    Location: 0x000000000009af9a, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000030	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_signal
+    Location: 0x000000000009afc5, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000035	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_wait
+    Location: 0x000000000009b5fd, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000035	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_wait
+    Location: 0x000000000009ba94, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000035	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: cond_wait
+    Location: 0x000000000009bf41, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000049	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: pthread_start
+    Location: 0x000000000009c84e, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r9 8@1592(%r9) 8@1600(%r9)
+  stapsdt              0x0000005a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: pthread_create
+    Location: 0x000000000009d10a, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@-232(%rbp) 8@-248(%rbp) 8@-256(%rbp)
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: pthread_join
+    Location: 0x000000000009e6bc, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000044	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: pthread_join_ret
+    Location: 0x000000000009e70c, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r15 -4@%eax 8@%rbx
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_acquired
+    Location: 0x000000000009ec63, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000030	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_entry
+    Location: 0x000000000009f26f, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_acquired
+    Location: 0x000000000009f2b6, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_destroy
+    Location: 0x000000000009f6b4, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x0000002f	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_init
+    Location: 0x000000000009f79c, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_acquired
+    Location: 0x000000000009f9ed, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000030	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_entry
+    Location: 0x000000000009ffef, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_acquired
+    Location: 0x00000000000a0055, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x0000003d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_timedlock_acquired
+    Location: 0x00000000000a0563, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x0000003d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_timedlock_acquired
+    Location: 0x00000000000a0a4e, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000049	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_clocklock_entry
+    Location: 0x00000000000a0eb9, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rdx
+  stapsdt              0x00000041	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_timedlock_entry
+    Location: 0x00000000000a0ed7, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_release
+    Location: 0x00000000000a1626, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r8
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_release
+    Location: 0x00000000000a1691, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r8
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_release
+    Location: 0x00000000000a1984, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: mutex_release
+    Location: 0x00000000000a1aa4, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000033	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: rwlock_destroy
+    Location: 0x00000000000a2674, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: rdlock_entry
+    Location: 0x00000000000a26d4, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: rdlock_acquire_read
+    Location: 0x00000000000a2708, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: rwlock_unlock
+    Location: 0x00000000000a305e, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000031	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: wrlock_entry
+    Location: 0x00000000000a3238, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000039	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: wrlock_acquire_write
+    Location: 0x00000000000a32a3, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x0000004c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_arena_max
+    Location: 0x00000000000a8f47, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@32+mp_(%rip)
+  stapsdt              0x0000004d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_arena_test
+    Location: 0x00000000000a8f57, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@24+mp_(%rip)
+  stapsdt              0x00000054	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_tunable_tcache_max_bytes
+    Location: 0x00000000000a8f70, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@112+mp_(%rip)
+  stapsdt              0x00000050	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_tunable_tcache_count
+    Location: 0x00000000000a8fb0, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@120+mp_(%rip)
+  stapsdt              0x00000059	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_tunable_tcache_unsorted_limit
+    Location: 0x00000000000a8fc7, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@128+mp_(%rip)
+  stapsdt              0x00000041	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mxfast
+    Location: 0x00000000000a9127, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@%rdx
+  stapsdt              0x0000005e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_trim_threshold
+    Location: 0x00000000000a9157, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x00000059	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_top_pad
+    Location: 0x00000000000a9177, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@8+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x00000061	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mmap_threshold
+    Location: 0x00000000000a9197, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@16+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x0000005d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mmap_max
+    Location: 0x00000000000a91b7, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: -4@%eax -4@64+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x00000052	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_perturb
+    Location: 0x00000000000a91d7, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: -4@%eax -4@perturb_byte(%rip)
+  stapsdt              0x00000041	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_arena_reuse_free_list
+    Location: 0x00000000000a932e, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000061	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mmap_threshold
+    Location: 0x00000000000a9f79, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@16+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_heap_new
+    Location: 0x00000000000aa092, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r14 8@%rbx
+  stapsdt              0x0000003e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_arena_reuse
+    Location: 0x00000000000aa405, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx 8@%r12
+  stapsdt              0x0000004a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_arena_reuse_wait
+    Location: 0x00000000000aa498, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx 8@%rbx 8@%r12
+  stapsdt              0x0000003c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_arena_new
+    Location: 0x00000000000aa62c, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@%r13
+  stapsdt              0x0000003e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_arena_retry
+    Location: 0x00000000000aa7f7, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rsi 8@%rdi
+  stapsdt              0x0000003d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_sbrk_less
+    Location: 0x00000000000aaabb, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax -8@%rbx
+  stapsdt              0x0000003c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_heap_free
+    Location: 0x00000000000aac79, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rax
+  stapsdt              0x0000003c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_heap_less
+    Location: 0x00000000000aad75, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@%r10
+  stapsdt              0x00000045	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_tcache_double_free
+    Location: 0x00000000000ab490, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r10 8@%rax
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_heap_more
+    Location: 0x00000000000ac6dd, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r8 8@%r9
+  stapsdt              0x0000003c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_sbrk_more
+    Location: 0x00000000000acc06, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rcx -8@%r8
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_malloc_retry
+    Location: 0x00000000000ad8b8, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x00000041	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_memalign_retry
+    Location: 0x00000000000adc30, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@%rbx
+  stapsdt              0x0000004e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_free_dyn_thresholds
+    Location: 0x00000000000adde1, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@%rdx
+  stapsdt              0x0000004e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_free_dyn_thresholds
+    Location: 0x00000000000adef6, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdx 8@%rax
+  stapsdt              0x00000040	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_realloc_retry
+    Location: 0x00000000000ae564, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@%rbx
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_calloc_retry
+    Location: 0x00000000000ae940, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rbx
+  stapsdt              0x0000003d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt
+    Location: 0x00000000000af2cb, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: -4@%ebx -4@%r12d
+  stapsdt              0x0000004c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_arena_max
+    Location: 0x00000000000af335, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@32+mp_(%rip)
+  stapsdt              0x0000005e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mmap_max
+    Location: 0x00000000000af350, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: -4@%r12d -4@64+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x00000061	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mmap_threshold
+    Location: 0x00000000000af368, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@16+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x0000004d	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_arena_test
+    Location: 0x00000000000af385, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@24+mp_(%rip)
+  stapsdt              0x00000053	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_perturb
+    Location: 0x00000000000af390, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: -4@%r12d -4@perturb_byte(%rip)
+  stapsdt              0x00000059	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_top_pad
+    Location: 0x00000000000af3a0, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@8+mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x0000005e	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_trim_threshold
+    Location: 0x00000000000af3b8, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%r12 8@mp_(%rip) -4@72+mp_(%rip)
+  stapsdt              0x00000041	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: memory_mallopt_mxfast
+    Location: 0x00000000000af3ff, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rax 8@%rdx
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp
+    Location: 0x0000000000135c99, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rdx
+  stapsdt              0x00000042	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libc
+    Name: longjmp_target
+    Location: 0x0000000000135cb5, Base: 0x00000000001d6720, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%eax 8@%rdx
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 1c6a1f93b53ace8d2d5af5bac45065ab52a0d0b2
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libOpenGL.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9933ffa271313a4ccaec087cbe89901e0dbc478f
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0a5dfb47af573e00748e742b535afc2fff458879
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6DBus.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: be3940700eb915407d223d638e811a815f50efc6
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 2eb24b0ff23c45cba38f7fdf72e16b529ddbd353
+
+Displaying notes found in: .note.package
+  Owner                Data size 	Description
+  FDO                  0x00000098	FDO_PACKAGING_METADATA
+    Packaging Metadata: {"type":"deb","os":"Ubuntu","name":"libzstd","version":"1.5.5+dfsg2-2build1.1","architecture":"amd64","debugInfoUrl":"https://debuginfod.ubuntu.com"}
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: ca77dae775ec87540acd7218fa990c40d1c94ab1
+
+Displaying notes found in: .note.package
+  Owner                Data size 	Description
+  FDO                  0x00000068	FDO_PACKAGING_METADATA
+    Packaging Metadata: {"type":"deb","os":"ubuntu","name":"gcc-14","version":"14.2.0-4ubuntu2~24.04","architecture":"amd64"}
+
+Displaying notes found in: .note.stapsdt
+  Owner                Data size 	Description
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: catch
+    Location: 0x00000000000b9ed8, Base: 0x000000000022bcee, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdx 8@-80(%rbx)
+  stapsdt              0x00000036	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: throw
+    Location: 0x00000000000bb35a, Base: 0x000000000022bcee, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi 8@%rsi
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: libstdcxx
+    Name: rethrow
+    Location: 0x00000000000bb409, Base: 0x000000000022bcee, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdx 8@%rax
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libmd4c.so.0.4.8
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0ad371757285d81272560044db91020a27b48778
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f8017d88b976d356c8b2ced6e9bdead11f7a5499
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9ea8985291d6ca9e904a796a5767d191039d813d
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libm.so.6
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000020	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+	x86 ISA needed: x86-64-baseline
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9032976b3ecc78d1362fedfcd88528562bbfb7e4
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.2.0
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-gfx.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 7fca93c6a6f26d479096bf3e699fa47513ea1d43
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-riff.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 766d955e1bd6c83fa11779227d364c4af3d4cb05
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-ak.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: fed33ff041cfd1bdf034bfa6db52afc875579b92
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-corebasic.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 89bca772890551a40066ce96f600c81dd1a32e56
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-web.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 86fa64ea2e543a8227e8574761caef1866db6221
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libEGL.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: e0bef13474530b1fe7427f94897a5db4ce262519
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 3072445288dd2aba348bf583c65f70509aab8141
+
+Displaying notes found in: .note.package
+  Owner                Data size 	Description
+  FDO                  0x00000068	FDO_PACKAGING_METADATA
+    Packaging Metadata: {"type":"deb","os":"ubuntu","name":"gcc-14","version":"14.2.0-4ubuntu2~24.04","architecture":"amd64"}
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9b85b15d08445ceca32a75ffedf3453d8c6fab47
+
+Displaying notes found in: .note.ABI-tag
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 3.17.0
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c747cc19ff15d5740994a0d1b53c48cf9dee04ed
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-core.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: eda39f663dbbd0828775ade39cec4ae8cd16cdab
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 500dda7095f45c8cd1ba0bf43fd4bb9448174ad5
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libproxy.so.0.5.4
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 50eee0fbafffcb5286084046a740c2fc32c3d651
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libz.so.1.3
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: bbefe2bbdc367b0c3cfbfcf80c579930496fb963
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 31220333d4ada48be1a1264b6bfeeab9d35d6510
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-syntax.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: c41116919a3ed0ce919fe366a5e7194491589754
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-sql.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0912c95dfadafb9df76d1718da49f4981375b0dd
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 812ea18a8b254d66471ad09ec189317aff0943e0
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-url.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 28829ad101635af8a13d92055de112a8a7b8e0e9
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-coreminimal.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: eb0fc7cba39f2226d15bd128b333da4c365c2b22
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-ipc.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: d481f5e7eeeca3ba1be8af1d2bc7c23e462d6a69
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-filesystem.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: a8b6ed3f31c00578f53e35739094337ffa8d35d4
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.4.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 4bc092d2f695f6252ca3475add6b3b320b112e85
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-keysyms.so.1.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: b299b5282ab9ff25d2345578f8aecb554813b337
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-image.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: f9c8404f0323faadd075aa88d8a3521ae548256f
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/libxcb-icccm.so.4.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 725e2362cab5c13b54337ec2139488fae683587a
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/qt6/plugins/platforms/libqxcb.so
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.qt.metadata
+  Owner                Data size 	Description
+  qt-project!          0x0000006a	Unknown note type: (0x74510001)
+   description data: 01 06 04 01 bf 02 78 3e 6f 72 67 2e 71 74 2d 70 72 6f 6a 65 63 74 2e 51 74 2e 51 50 41 2e 51 50 6c 61 74 66 6f 72 6d 49 6e 74 65 67 72 61 74 69 6f 6e 46 61 63 74 6f 72 79 49 6e 74 65 72 66 61 63 65 2e 35 2e 33 03 75 51 58 63 62 49 6e 74 65 67 72 61 74 69 6f 6e 50 6c 75 67 69 6e 04 a1 64 4b 65 79 73 81 63 78 63 62 ff 
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 609ba9a784b94900998015f3e8dfcc5670a3373b
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-protocol.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: adb451d716eb298b009c18dedc0f271159232cf0
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-webview.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 43fdd3a11eecfcc7626d4c014b7c63b4bf8bd824
+
+Running readelf -n on: /home/author/cfop/vulnerable-serenityos/Build/lagom/lib/liblagom-imagedecoderclient.so.0.0.0
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 0548005c3bf2380a0884f12089a3468df9d64988
+
+Running readelf -n on: [vdso]
+
+Error running readelf on [vdso]: readelf: Error: '[vdso]': No such file
+
+
+Running readelf -n on: /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+
+
+Displaying notes found in: .note.gnu.property
+  Owner                Data size 	Description
+  GNU                  0x00000010	NT_GNU_PROPERTY_TYPE_0
+      Properties: x86 feature: IBT, SHSTK
+
+Displaying notes found in: .note.gnu.build-id
+  Owner                Data size 	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 353e1b6cb0eebc08cf3ff812eae8a51b4efd684e
+
+Displaying notes found in: .note.stapsdt
+  Owner                Data size 	Description
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: unmap_start
+    Location: 0x0000000000001e81, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@%r15 8@%r12
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: unmap_complete
+    Location: 0x0000000000002116, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@%r15 8@%rbx
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: map_start
+    Location: 0x0000000000008957, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@40(%rbp) 8@%rbx
+  stapsdt              0x0000003c	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: reloc_start
+    Location: 0x000000000000cdee, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@32(%rax) 8@%rsi
+  stapsdt              0x00000044	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: map_complete
+    Location: 0x000000000000d99d, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@32(%rbx) 8@%r14 8@%r15
+  stapsdt              0x0000004b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: reloc_complete
+    Location: 0x000000000000dc4f, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -8@32(%rbx) 8@-72(%rbp) 8@%r15
+  stapsdt              0x00000035	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: init_start
+    Location: 0x000000000002236c, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -4@$0 8@%r14
+  stapsdt              0x00000038	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: init_complete
+    Location: 0x0000000000022891, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: -4@$0 8@%rbx
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: lll_lock_wait_private
+    Location: 0x0000000000025ea6, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x00000032	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: lll_lock_wait
+    Location: 0x0000000000025f09, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi
+  stapsdt              0x0000003a	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: setjmp
+    Location: 0x0000000000026041, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rax
+  stapsdt              0x0000003b	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: longjmp
+    Location: 0x00000000000260f1, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%esi 8@%rdx
+  stapsdt              0x00000042	NT_STAPSDT (SystemTap probe descriptors)
+    Provider: rtld
+    Name: longjmp_target
+    Location: 0x000000000002610d, Base: 0x00000000000324b0, Semaphore: 0x0000000000000000
+    Arguments: 8@%rdi -4@%eax 8@%rdx
+
