@@ -38,23 +38,19 @@ In practice, this last point might be found to be the most problematic. We found
 2. After this, you may run the Docker container and attach to it:
 ```
 sudo docker run --rm --privileged --security-opt seccomp=unconfined -it -v $(pwd):/cfop -v /tmp/.X11-unix/:/tmp/.X11-unix -v ~/.Xauthority:/root/.Xauthority:rw -v ~/.Xauthority:/home/ubuntu/.Xauthority:rw -e DISPLAY=$DISPLAY -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR -v $XDG_RUNTIME_DIR:$XDG_RUNTIME_DIR --net=host vulnerable-serenityos
-
-docker exec -it <id> /bin/bash
 ```
 
-3. Once in the container, you can build and run Ladybird
+3. Once in the container, switch to user 'ubuntu'; then build and run Ladybird
 ```
+usermod -u 1001 ubuntu
+
+su ubuntu
+
+cd cfop
+
+export SERENITY_SOURCE_DIR=/cfop
+
 ./Meta/serenity.sh run lagom ladybird
-```
-
-Alternatively, it is possible to debug ladybird too:
-```
-./Meta/serenity.sh gdb lagom ladybird
-```
-
-In addition, once Ladybird has been built at least once, CET's Shadow Stack can be runtime enforced using our script:
-```
-python3 Meta/shstkenforcer.py
 ```
 
 # Running the CFOP exploit
@@ -70,3 +66,29 @@ As a result of running the exploit, the name of the current user will be printed
 Ladybird runs with ASLR disabled, and inside our supplied Docker container, so every user of this exploit will find the internal addresses to be valid - and thus the exploit to be working. 
 
 In case the exploit would not work (e.g., to port this exploit to a different ScyllaDB exploit or a different system), the address corresponding to execve() would need to be updated (see ```exploit.html```).
+
+Alternatively, it is possible to debug ladybird too:
+```
+./Meta/serenity.sh gdb lagom Ladybird
+```
+
+In addition, once Ladybird has been built at least once, CET's Shadow Stack can be runtime enforced using our script:
+```
+python3 Meta/shstkenforcer.py
+```
+
+# Appendix: Running the SerenityOS exploit in the AE evaluation testing machine
+The Ladybird application is a web browser with a GUI, meaning that the system needs to proxy X11 twice:
+1) From inside the docker running Ladybird, to our testing machine host
+2) From the testing machine host, to your own machine you are ssh-ing from
+
+The system is prepared to manage the first proxy (this is done with the arguments docker is run with), but the second X11 forwarding must be started by the evaluator:
+1) If your own machine is Linux, then you must add the flag ```-Y``` to your ssh command:
+```ssh -Y reviewer@10.17.130.180```
+2) If your own machine is Windows, then we recommend using Putty and vcxsrv as your X11 server. 
+    * Activate vcxsrv, and check on its logs the DISPLAY variable (usually, 127.0.0.1:0.0). Logs are found after right-clicking the toolbar icon (after launching vcxsrv, it appears under hidden icons), then selecting "Show logs".
+    * You can then setup the X11 forwarding in Putty under Connection->SSH->X11. Click on "Enable X11 forwarding" and write the value of the DISPLAY variable in the field "X display location". Then, start the SSH connection.
+
+We strongly recommend not using WSL for the evaluation, as we found some buggy behaviour when using it.
+
+At any point during the evaluation (in your own machine, in our testing machine, and finally inside the Ladybird docker), it is possible to run the command ```xeyes``` to test if the X11 forwarding works correctly. 
