@@ -23,6 +23,9 @@ We introduce in ScyllaDB a vulnerability - in ```cql3/util.cc```, where the inpu
 
 In order to run the exploit, the user may run the *cqlsh.py* script like any other user - then introduce the "EXPLOITPAYLOAD;" keyword, which triggers the exploit. After the exploit is completed, we see how ScyllaDB stops its normal execution; "root" or the corresponding user name is printed on screen.
 
+# Requirements
+We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. The build happens inside Docker, so this is the only requirement.
+
 # Setup
 ScyllaDB is made of numerous submodules - hosted in multiple repositories. In addition, its internal build system depends on such submodules for querying additional files at runtime, so it is not possible to offload all the code of ScyllaDB to one single repository. For this reason, our build system consists of:
 1) A ```cfop_setup.sh``` script, that clones a certain version of ScyllaDB from its official GitHub repository, patches the code with our vulnerability and exploit, and then builds ScyllaDB. The official way of building ScyllaDB is inside a Docker that comes with every dependency - so no particular dependencies must be installed.

@@ -10,6 +10,9 @@ We overwrite the internal data of the coroutine frame - without tampering with t
 
 Our script ```fileopening.py``` can be used to start an instance of ```fileopening``` and launch our exploit. A successful exploitation will result in the program printing the contents of the file ```/etc/hosts``` on screen, even when this filename was not present in the original program.
 
+# Requirements
+We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. Docker is the only software requirement.
+
 ## Building and Running in Docker
 We provide a pre-built Ubuntu 24.04 docker image for testing the PoC in a prepared container.
 This container comes with a gcc-14.2 toolchain along with some other python tools (e.g., pwntools) for running our automated exploit script. We also disabled ASLR in the system.

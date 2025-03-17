@@ -12,6 +12,8 @@ Thus, we exploit the CVE-2021-4327 vulnerability to inject malicious coroutine f
 Here, an ICC chain of three elements is executed, leveraging the *destroyer* and *await_suspend* CFPs. 
 We exploit 6 CFPs in total (2 for each element in the chain, where one CFP is used to build the chain and the other to issue the arbitrary calls).
 
+# Requirements
+We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. Whilst the build happens inside Docker, the Ladybird browser has a GUI, so it is necessary that the host machine has a X11 server. In Linux, we recommend using *Xorg*, whilst we have also tested this in Windows using *vcxsrv*.
 
 # Setup
 We release the modified source code responsible of building SerenityOS with the CVE-2021-4327 vulnerability.
