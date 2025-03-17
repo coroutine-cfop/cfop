@@ -12,10 +12,10 @@ Thus, we exploit the CVE-2021-4327 vulnerability to inject malicious coroutine f
 Here, an ICC chain of three elements is executed, leveraging the *destroyer* and *await_suspend* CFPs. 
 We exploit 6 CFPs in total (2 for each element in the chain, where one CFP is used to build the chain and the other to issue the arbitrary calls).
 
-# Requirements
+## Requirements
 We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. Whilst the build happens inside Docker, the Ladybird browser has a GUI, so it is necessary that the host machine has a X11 server. In Linux, we recommend using *Xorg*, whilst we have also tested this in Windows using *vcxsrv*.
 
-# Setup
+## Setup
 We release the modified source code responsible of building SerenityOS with the CVE-2021-4327 vulnerability.
 With the goal of simplifying testing, we build and run the Ladybird inside a Ubuntu 24.04 docker - for which we provide the corresponding Dockerfile.
 
@@ -33,7 +33,7 @@ In practice, this last point might be found to be the most problematic. We found
 2) The libraries libgmp and libmpg123 were not compiled with CET support. While you could recompile them with it (using the ```-fcf-protection``` option, we preferred to bypass this and enforce CET via our script ```shstkenforcer.py```). We detail next how to use it to run Ladybird while actively enforcing CET.
 
 
-# Building and running Ladybird
+## Building and running Ladybird
 1. Our Dockerfile spawns an Ubuntu 24.04 Docker with every dependency already installed.
 ```sudo docker build -t vulnerable-serenityos .```
 
@@ -55,7 +55,7 @@ export SERENITY_SOURCE_DIR=/cfop
 ./Meta/serenity.sh run lagom ladybird
 ```
 
-# Running the CFOP exploit
+## Running the CFOP exploit
 Once Ladybird is running, the GUI will be shown in screen. 
 At this moment, we can navigate to the URL ```file:///cfop/Base/home/anon/exploit.html```.
 
@@ -64,7 +64,7 @@ This address is needed to be entered in the browser input as to run the exploit.
 As a result of running the exploit, the name of the current user will be printed on screen three times (executing *execve("whoami")*). 
 
 
-# Notes on running the SerenityOS exploit
+## Notes on running the SerenityOS exploit
 Ladybird runs with ASLR disabled, and inside our supplied Docker container, so every user of this exploit will find the internal addresses to be valid - and thus the exploit to be working. 
 
 In case the exploit would not work (e.g., to port this exploit to a different ScyllaDB exploit or a different system), the address corresponding to execve() would need to be updated (see ```exploit.html```).
@@ -79,7 +79,7 @@ In addition, once Ladybird has been built at least once, CET's Shadow Stack can 
 python3 Meta/shstkenforcer.py
 ```
 
-# Appendix: Running the SerenityOS exploit in the AE evaluation testing machine
+## Appendix: Running the SerenityOS exploit in the AE evaluation testing machine
 The Ladybird application is a web browser with a GUI, meaning that the system needs to proxy X11 twice:
 1) From inside the docker running Ladybird, to our testing machine host
 2) From the testing machine host, to your own machine you are ssh-ing from

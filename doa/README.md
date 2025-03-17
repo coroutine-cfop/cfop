@@ -10,7 +10,7 @@ We overwrite the internal data of the coroutine frame - without tampering with t
 
 Our script ```fileopening.py``` can be used to start an instance of ```fileopening``` and launch our exploit. A successful exploitation will result in the program printing the contents of the file ```/etc/hosts``` on screen, even when this filename was not present in the original program.
 
-# Requirements
+## Requirements
 We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. Docker is the only software requirement.
 
 ## Building and Running in Docker
@@ -29,4 +29,5 @@ In order to run the PoC in the docker image, you should follow the next steps:
 5. Run the exploit script
 ```python3 fileopening.py```
 
-
+## Notes on active CET enforcement
+You can opt-in Shadow Stack support using ```export GLIBC_TUNABLES=glibc.cpu.hwcaps=SHSTK``` before running the program.

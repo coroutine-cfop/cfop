@@ -16,7 +16,7 @@ In ```msvc_silver_exploit.py``` we showcase how a _silver gadget_ can be used to
 
 Note: the exploited program is just an example. The coroutine program does not necessarily need to feature three nested coroutines for an exploit to exist, and does not necessarily need to be using symmetric transfer (asymmetric is also vulnerable). All versions of MSVC which support coroutines are vulnerable, here we target the latest. We recommend reading Section 3 of our paper for complete detail of every possible attack.
 
-# Requirements
+## Requirements
 We test this experiment in a machine with a 4-core i7-1165G7 CPU and 32GB of RAM. We used a Microsoft Windows 11 Pro machine. For compilation, we used Visual Studio 2022.
 
 ## Building and Running
