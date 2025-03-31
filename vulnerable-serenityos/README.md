@@ -79,10 +79,10 @@ In addition, once Ladybird has been built at least once, CET's Shadow Stack can 
 python3 Meta/shstkenforcer.py
 ```
 
-## Appendix: Running the SerenityOS exploit in the AE evaluation testing machine
+## Appendix: Running the SerenityOS exploit in a remote machine over SSH
 The Ladybird application is a web browser with a GUI, meaning that the system needs to proxy X11 twice:
-1) From inside the docker running Ladybird, to our testing machine host
-2) From the testing machine host, to your own machine you are ssh-ing from
+1) From inside the docker running Ladybird, to the remote machine host accessed via SSH
+2) From the remote machine host, to your own machine you are ssh-ing from
 
 The system is prepared to manage the first proxy (this is done with the arguments docker is run with), but the second X11 forwarding must be started by the evaluator:
 1) If your own machine is Linux, then you must add the flag ```-Y``` to your ssh command:
@@ -93,4 +93,4 @@ The system is prepared to manage the first proxy (this is done with the argument
 
 We strongly recommend not using WSL for the evaluation, as we found some buggy behaviour when using it.
 
-At any point during the evaluation (in your own machine, in our testing machine, and finally inside the Ladybird docker), it is possible to run the command ```xeyes``` to test if the X11 forwarding works correctly. 
+At any point during the evaluation (in your own machine, in the remote machine, and finally inside the Ladybird docker), it is possible to run the command ```xeyes``` to test if the X11 forwarding works correctly. 
