@@ -14,3 +14,6 @@ In total, there are six different artifacts, composed of four PoC exploits and t
 # Requirements
 In general, Docker and Podman are the only software requirements needed. 
 We tested our artifacts in a Ubuntu 24.04 machine with a 20-core i9-12900H CPU and 32GB of RAM, and a Microsoft Windows 11 Pro machine with 4-core i7-1165G7 CPU and 32GB of RAM (only for *msvc*). 
+
+# Paper
+The paper for Coroutine Frame-Oriented Programming appeared in USENIX Security 2025 and is available [here](https://publications.cispa.de/articles/conference_contribution/Await_a_Second_Evading_Control_Flow_Integrity_by_Hijacking_C_Coroutines/28718642?file=53381996).
