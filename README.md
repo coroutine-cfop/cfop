@@ -17,3 +17,6 @@ We tested our artifacts in a Ubuntu 24.04 machine with a 20-core i9-12900H CPU a
 
 # Paper
 The paper for Coroutine Frame-Oriented Programming appeared in USENIX Security 2025 and is available [here](https://publications.cispa.de/articles/conference_contribution/Await_a_Second_Evading_Control_Flow_Integrity_by_Hijacking_C_Coroutines/28718642?file=53381996).
+
+# Authors
+This work has been developed by [Marcos Bajo](https://github.com/h3xduck) (*h3xduck*) and [Christian Rossow](https://github.com/crossow), researchers from the System Security group of the CISPA Helmholtz Center for Information Security in Germany.
