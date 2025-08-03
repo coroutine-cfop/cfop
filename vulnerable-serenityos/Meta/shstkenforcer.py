@@ -16,6 +16,7 @@ commands
             b *0x7ffff7fdcca9
             commands
                 set *0x7ffff7ffe068 = 0x2
+                set follow-fork-mode parent
                 del
             end
         end

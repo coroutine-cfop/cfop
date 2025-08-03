@@ -12,6 +12,8 @@ Thus, we exploit the CVE-2021-4327 vulnerability to inject malicious coroutine f
 Here, an ICC chain of three elements is executed, leveraging the *destroyer* and *await_suspend* CFPs. 
 We exploit 6 CFPs in total (2 for each element in the chain, where one CFP is used to build the chain and the other to issue the arbitrary calls).
 
+New: now a new version of the exploit, ```exploitB.html```, shows how to do ICC with an intermediate gadget for having more freedom on RDI (not limited to 8 bytes anymore).
+
 ## Requirements
 We test this experiment in a machine with a 20-core i9-12900H CPU and 32GB of RAM. We used an Ubuntu 24.04 machine. Whilst the build happens inside Docker, the Ladybird browser has a GUI, so it is necessary that the host machine has a X11 server. In Linux, we recommend using *Xorg*, whilst we have also tested this in Windows using *vcxsrv*.
 
@@ -30,7 +32,7 @@ However, a correct setup and system are needed (the exploit can be tested withou
 
 In practice, this last point might be found to be the most problematic. We found three libraries that might pose a problem in your setup:
 1) libc: you can opt-in Shadow Stack support using ```export GLIBC_TUNABLES=glibc.cpu.hwcaps=SHSTK``` before running the program.
-2) The libraries libgmp and libmpg123 were not compiled with CET support. While you could recompile them with it (using the ```-fcf-protection``` option, we preferred to bypass this and enforce CET via our script ```shstkenforcer.py```). We detail next how to use it to run Ladybird while actively enforcing CET.
+2) The libraries libgmp and libmpg123 were not compiled with CET support. While you could recompile them with it (using the ```-fcf-protection``` option), we preferred to bypass this and enforce CET via our script ```shstkenforcer.py```. We detail next how to use it to run Ladybird while actively enforcing CET.
 
 
 ## Building and running Ladybird
@@ -44,7 +46,7 @@ sudo docker run --rm --privileged --security-opt seccomp=unconfined -it -v $(pwd
 
 3. Once in the container, switch to user 'ubuntu'; then build and run Ladybird
 ```
-usermod -u 1001 ubuntu
+usermod -u 1001 ubuntu #or the id of the user owning the directory
 
 su ubuntu
 
@@ -63,11 +65,13 @@ Upon visiting this website, the command line will leak some address.
 This address is needed to be entered in the browser input as to run the exploit.
 As a result of running the exploit, the name of the current user will be printed on screen three times (executing *execve("whoami")*). 
 
+(In the Blackhat version of the exploit hown in screen. 
+At this moment, we can navigate to the URL ```file:///cfop/Base/home/anon/exploitB.html```, a duck ASCII art is printed as well after the exploit).
 
 ## Notes on running the SerenityOS exploit
-Ladybird runs with ASLR disabled, and inside our supplied Docker container, so every user of this exploit will find the internal addresses to be valid - and thus the exploit to be working. 
+Ladybird runs with ASLR disabled, and inside our supplied Docker container, so every user of this exploit will find the internal addresses to be valid - thus the exploit should be working. 
 
-In case the exploit would not work (e.g., to port this exploit to a different ScyllaDB exploit or a different system), the address corresponding to execve() would need to be updated (see ```exploit.html```).
+In case the exploit would not work (e.g., to port this exploit to a different SerenityOS exploit or a different system), the address corresponding to execve() would need to be updated (see ```exploit.html```).
 
 Alternatively, it is possible to debug ladybird too:
 ```
@@ -78,6 +82,8 @@ In addition, once Ladybird has been built at least once, CET's Shadow Stack can 
 ```
 python3 Meta/shstkenforcer.py
 ```
+
+You can check if shadow stack is enabled by checking under ```/proc/<pid>/status```
 
 ## Appendix: Running the SerenityOS exploit in a remote machine over SSH
 The Ladybird application is a web browser with a GUI, meaning that the system needs to proxy X11 twice:
