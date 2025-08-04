@@ -23,3 +23,13 @@ In total, there are seven different artifacts, composed of five PoC exploits and
 # Requirements
 In general, Docker and Podman are the only software requirements needed. 
 We tested our artifacts in a Ubuntu 24.04 machine with a 20-core i9-12900H CPU and 32GB of RAM, and a Microsoft Windows 11 Pro machine with 4-core i7-1165G7 CPU and 32GB of RAM (only for *msvc*). 
+
+# Cite the paper
+```
+@conference{Sanchez Bajo:Rossow:2025,
+  title = "Await() a Second: Evading Control Flow Integrity by Hijacking C++ Coroutines",
+  author = "Bajo, Marcos" AND "Rossow, Christian",
+  year = 2025,
+  month = 8
+}
+```
