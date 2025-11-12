@@ -26,10 +26,17 @@ We tested our artifacts in a Ubuntu 24.04 machine with a 20-core i9-12900H CPU a
 
 # Cite the paper
 ```
-@conference{Sanchez Bajo:Rossow:2025,
-  title = "Await() a Second: Evading Control Flow Integrity by Hijacking C++ Coroutines",
-  author = "Bajo, Marcos" AND "Rossow, Christian",
-  year = 2025,
-  month = 8
+@inproceedings{cfop,
+author = {Bajo, Marcos and Rossow, Christian},
+title = {Await() a second: evading control flow integrity by hijacking C++ coroutines},
+year = {2025},
+isbn = {978-1-939133-52-6},
+publisher = {USENIX Association},
+address = {USA},
+booktitle = {Proceedings of the 34th USENIX Conference on Security Symposium},
+articleno = {380},
+numpages = {20},
+location = {Seattle, WA, USA},
+series = {SEC '25}
 }
 ```
